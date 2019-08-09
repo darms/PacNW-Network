@@ -1,4 +1,6 @@
 
+import img from '.../public/images/header-background.jpeg';
+
 
 #slim{
     font-family: 'Arial', sans-serif;
@@ -10,6 +12,7 @@
     font-size: 64px;
 }
 
-div{
-    background-image: './images/header-background.jpeg'
-}
+section{
+    background-image: url(".../public/images/header-background.jpeg");
+} 
+/* <img src=".../public/images/colo-center.jpeg"></img>  */

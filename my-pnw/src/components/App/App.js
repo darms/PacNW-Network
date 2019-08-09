@@ -1,16 +1,14 @@
 import React from 'react';
-import Header from '../components/Header/Header';
-import About from '../components/About/About';
-import ServicesOffered from '../components/ServicesOffered/ServicesOffered';
-import Contact from '../components/Contact/Contact';
+import Header from '../Header/Header';
+// import About from '.src/components/About/About';
+// import ServicesOffered from '.src/components/ServicesOffered/ServicesOffered';
+// import Contact from '.src/components/Contact/Contact';
 
 const App = () => {
     return (
         <div>
             <Header />
-            <About />
-            <ServicesOffered />
-            <Contact />
+
         </div>
     )
 }
